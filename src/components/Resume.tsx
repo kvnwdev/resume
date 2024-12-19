@@ -227,7 +227,7 @@ export const Resume = () => {
 
       {/* Export Button */}
       <motion.div
-        className="fixed bottom-8 right-8 print-hidden"
+        className="hidden md:block fixed bottom-8 right-8 print-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.2 }}
