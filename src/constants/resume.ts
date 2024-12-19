@@ -1,37 +1,5 @@
 // src/constants/resume.ts
 
-export interface ResumeData {
-  name: string;
-  title: string;
-  contact: {
-    email: string;
-    phone: string;
-    location: string;
-    github: string;
-    linkedin: string;
-  };
-  summary: string;
-  skills: {
-    languages: string[];
-    tools: string[];
-    security: string[];
-    databases: string[];
-  };
-  experience: {
-    title: string;
-    company: string;
-    duration: string;
-    highlights: string[];
-  }[];
-  education: {
-    degree: string;
-    school: string;
-    year: string;
-  };
-}
-
-// src/constants/resume.ts
-
 export const RESUME_DATA = {
   name: "Kevin Willoughby",
   title: "Software Delivery & Technical Solutions Architect",
@@ -43,7 +11,7 @@ export const RESUME_DATA = {
     linkedin: "linkedin.com/in/kevinwilloughbyiii",
   },
   summary:
-    "Strategic technology leader with proven expertise in software delivery, system integration, and technical architecture. Specialized in modernizing legacy systems, implementing automation solutions, and driving technical innovation. Microsoft Azure certified professional with deep experience in full-stack development, cloud platforms, and enterprise software solutions. Known for rapidly mastering new technologies and delivering pragmatic solutions in complex environments.",
+    "Technical innovator with a passion for solving complex system integration challenges. Combining strategic oversight with hands-on expertise, I specialize in bridging legacy and modern technologies - from learning UNIBASIC to enhance legacy system understanding, to architecting cloud-native solutions. My approach combines rapid learning, pragmatic problem-solving, and meticulous attention to detail. Started programming in elementary school, scaled a successful software business during high school, and now drive enterprise technical strategy while maintaining deep technical involvement. Known for transforming manual processes into automated solutions and turning complex technical challenges into streamlined operations. Microsoft Azure certified, with expertise spanning full-stack development, cloud architecture, and enterprise system integration.",
   skills: {
     languages: [
       "JavaScript/TypeScript",
